@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  counter = 0
   title = 'angular-crash-todo';
-  clickCounter = () => {
-    this.counter++
-  }
 }
